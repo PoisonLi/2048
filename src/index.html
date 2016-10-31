@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>2048</title>
+    <link rel="shortcut icon" type="image/x-icon" href="2048_favicon.ico">
+    <!-- build:css css/combined.css -->
+    <link rel="stylesheet" href="css/2048.css">
+    <link rel="stylesheet" href="css/jquery.alertable.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <header>
+        <h1>2048</h1>
+        <a id="newgamebutton" href="javascript:">NewGame</a>
+        <p>score:<span id="score">0</span></p>
+    </header>
+
+    <div id="grid_container">
+        <div class="grid-cell" id="grid_cell_0_0"></div>
+        <div class="grid-cell" id="grid_cell_0_1"></div>
+        <div class="grid-cell" id="grid_cell_0_2"></div>
+        <div class="grid-cell" id="grid_cell_0_3"></div>
+
+        <div class="grid-cell" id="grid_cell_1_0"></div>
+        <div class="grid-cell" id="grid_cell_1_1"></div>
+        <div class="grid-cell" id="grid_cell_1_2"></div>
+        <div class="grid-cell" id="grid_cell_1_3"></div>
+
+        <div class="grid-cell" id="grid_cell_2_0"></div>
+        <div class="grid-cell" id="grid_cell_2_1"></div>
+        <div class="grid-cell" id="grid_cell_2_2"></div>
+        <div class="grid-cell" id="grid_cell_2_3"></div>
+
+        <div class="grid-cell" id="grid_cell_3_0"></div>
+        <div class="grid-cell" id="grid_cell_3_1"></div>
+        <div class="grid-cell" id="grid_cell_3_2"></div>
+        <div class="grid-cell" id="grid_cell_3_3"></div>
+    </div>
+
+    <p id="feng">—— 送给汽车人</p>
+
+    <!-- build:js scripts/combined.js -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.alertable.min.js"></script>
+    <script src="js/support.js"></script>
+    <script src="js/showanimation.js"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

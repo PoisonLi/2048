@@ -1,0 +1,100 @@
+body{
+    font-family: Arial;
+}
+header{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+header h1{
+    margin: 10px 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #E0985A;
+}
+header #newgamebutton{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #8f7a66;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+header #newgamebutton:hover{
+    background-color: #9f8b77;
+}
+header p{
+    margin: 10px 0;
+    font-size: 24px;
+}
+#grid_container{
+    position: relative;
+    width: 460px;
+    height: 460px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #bbada0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.grid-cell{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc0b3;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.number-cell{
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+#feng{
+    width: 200px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #EA7C1D;
+}
+
+@media only screen and (max-width:500px) {
+    header{
+        margin:20px 0;
+    }
+    header h1{
+        float: left;
+        margin: 0 0 0 10px ;
+        font-size: 24px;
+    }
+    header #newgamebutton{
+        width:60px;
+        padding: 10px;
+        font-size: 12px;
+    }
+    header p{
+        position: absolute;
+        right:20px;
+        top:20px;
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ff9f13;
+    }
+    #grid_container{
+        margin: 10px 0;
+    }
+}
